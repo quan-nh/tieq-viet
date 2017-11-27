@@ -1,16 +1,11 @@
 # tieq-viet
+[![NPM](https://nodei.co/npm/tieq-viet.png?compact=true)](https://npmjs.org/package/tieq-viet)
 
-A Clojure(script) library to convert `Tiếng Việt` to `Tiếq Việt`, based on [this newly suggested IPA](https://thanhnien.vn/giao-duc/khi-tieng-viet-duoc-viet-thanh-tieq-viet-903068.html). 
-
-## Install
-
-```sh
-$ npm install tieq-viet
-```
+A library to convert `Tiếng Việt` to `Tiếq Việt`, based on [this newly suggested IPA](https://thanhnien.vn/giao-duc/khi-tieng-viet-duoc-viet-thanh-tieq-viet-903068.html). 
 
 ## Usage
 
-With `js`
++ `js`
 ```js
 const tiegViet = require('tieq-viet');
 
@@ -18,7 +13,7 @@ tiegViet.encode('Tiếng Việt giàu và đẹp. Đùa đấy ahihi đồ ngố
 // Tiếq Việt zàu và dẹp. Dùa dấy ahihi dồ qốk.
 ```
 
-With `clj(s)`
++ `clj(s)`
 ```clj
 (require '[tieq-viet.core :as tieq-viet])
 
