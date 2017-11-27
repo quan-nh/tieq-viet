@@ -1,8 +1,20 @@
 # tieq-viet
 [![Clojars Project](https://img.shields.io/clojars/v/tieq-viet.svg)](https://clojars.org/tieq-viet)
-[![npm version](https://badge.fury.io/js/tieq-viet.svg)](https://badge.fury.io/js/tieq-viet)
+[![npm version](https://badge.fury.io/js/tieq-viet.svg)](https://www.npmjs.com/package/tieq-viet)
 
-A library to convert `Tiếng Việt` to `Tiếq Việt`, based on [this newly suggested IPA](https://thanhnien.vn/giao-duc/khi-tieng-viet-duoc-viet-thanh-tieq-viet-903068.html). 
+A library for converting `Tiếng Việt` to `Tiếq Việt`, based on [this newly suggested IPA](https://thanhnien.vn/giao-duc/khi-tieng-viet-duoc-viet-thanh-tieq-viet-903068.html). 
+
+## Install
+
++ With Node
+```sh
+$ npm install tieq-viet
+```
+
++ With Leiningen/Boot
+```clj
+[tieq-viet "1.0.2"]
+```
 
 ## Usage
 
