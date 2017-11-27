@@ -1,0 +1,19 @@
+{
+  "name": "tieq-viet",
+  "version": "1.0.1",
+  "description": "A library to convert Tiếng Việt to Tiếq Việt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tentamen/tieq-viet.git"
+  },
+  "author": "Quan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tentamen/tieq-viet/issues"
+  },
+  "homepage": "https://github.com/tentamen/tieq-viet"
+}

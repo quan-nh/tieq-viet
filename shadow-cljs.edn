@@ -1,0 +1,12 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ []
+
+ :builds
+ {:node {:id        :library
+         :target    :node-library
+         :output-to "index.js"
+         :exports   {:encode tieq-viet.core/encode}}}}

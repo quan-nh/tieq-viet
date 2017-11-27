@@ -1,4 +1,4 @@
-(defproject tieq-viet "0.1.0-SNAPSHOT"
+(defproject tieq-viet "1.0.0"
   :description "A Clojure(script) library to convert Tiếng Việt to Tiếq Việt"
   :url "https://github.com/tentamen/tieq-viet"
   :license {:name "MIT License"}
