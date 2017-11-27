@@ -21,4 +21,16 @@ Diều 7. Qôn qữ zùq coq n'à cườq và kơ sở záo zụk xák; zạy v�
 
 2. Nhà nước tạo điều kiện để người dân tộc thiểu số được học tiếng nói, chữ viết của dân tộc mình nhằm giữ gìn và phát huy bản sắc văn hoá dân tộc, giúp cho học sinh người dân tộc thiểu số dễ dàng tiếp thu kiến thức khi học tập trong nhà trường và cơ sở giáo dục khác. Việc dạy và học tiếng nói, chữ viết của dân tộc thiểu số được thực hiện theo quy định của Chính phủ.
 
-3. Ngoại ngữ quy định trong chương trình giáo dục là ngôn ngữ được sử dụng phổ biến trong giao dịch quốc tế. Việc tổ chức dạy ngoại ngữ trong nhà trường và cơ sở giáo dục khác cần đảm bảo để người học được học liên tục và có hiệu quả.")))))
+3. Ngoại ngữ quy định trong chương trình giáo dục là ngôn ngữ được sử dụng phổ biến trong giao dịch quốc tế. Việc tổ chức dạy ngoại ngữ trong nhà trường và cơ sở giáo dục khác cần đảm bảo để người học được học liên tục và có hiệu quả.")))
+
+    (is (= "Coq dầm zì dẹp bằq sen"
+           (encode "Trong đầm gì đẹp bằng sen")))
+    (is (= "COQ DẦM ZÌ DẸP BẰQ SEN"
+           (encode "TRONG ĐẦM GÌ ĐẸP BẰNG SEN")))
+    (is (= "Coq dầm Zì dẹp bằq sen"
+           (encode "Trong đầm Gì đẹp bằng sen")))
+    (is (= "Coq dầm zÌ dẹp bằq sen"
+           (encode "Trong đầm gÌ đẹp bằng sen")))
+
+    (is (= "Zữ zÌn sự coq sáq kủa tiếq Việt."
+           (encode "Giữ gÌn sự trong sáng của tiếng Việt.")))))

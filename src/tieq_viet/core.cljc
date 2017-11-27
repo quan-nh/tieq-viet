@@ -4,20 +4,19 @@
 (defn encode
   "I don't do a whole lot."
   [s]
-  (str/replace s #"(?i)ch|ngh|nh|ng|kh|th|ph|gh|gi|gì|tr|c|d|đ|Đ|q|r"
-               {"ch"  "c", "Ch" "C", "CH" "C"
-                "tr"  "c", "Tr" "C", "TR" "C"
-                "c"   "k", "C" "K"
-                "q"   "k", "Q" "K"
-                "d"   "z", "D" "Z"
-                "gi"  "z", "Gi" "Z", "GI" "Z"
-                "gì"  "zì", "Gì" "Zì", "GÌ" "ZÌ"
-                "r"   "z", "R" "Z"
-                "đ"   "d", "Đ" "D"
-                "gh"  "g", "Gh" "G", "GH" "G"
-                "ng"  "q", "Ng" "Q", "NG" "Q"
-                "ngh" "q", "Ngh" "Q", "NGH" "Q"
-                "nh"  "n'", "Nh" "N'", "NH" "N'"
-                "kh"  "x", "Kh" "x", "KH" "X"
-                "th"  "w", "Th" "W", "TH" "W"
-                "ph"  "f", "Ph" "F", "PH" "F"}))
+  (str/replace s #"(?i)ch|ngh|nh|ng|kh|th|ph|gh|gi|gì|GÌ|tr|c|d|đ|Đ|q|r"
+               #(let [f (first %)
+                      r (subs % 1)]
+                  (case (str f (str/lower-case r))
+                    ("ch" "tr") "c", ("Ch" "Tr") "C"
+                    ("c" "q") "k", ("C" "Q") "K"
+                    ("d" "gi" "r") "z", ("D" "Gi" "R") "Z"
+                    "gì" (str "z" r), "Gì" (str "Z" r)
+                    "đ" "d", "Đ" "D"
+                    "gh" "g", "Gh" "G"
+                    ("ng" "ngh") "q", ("Ng" "Ngh") "Q"
+                    "nh" "n'", "Nh" "N'"
+                    "kh" "x", "Kh" "X"
+                    "th" "w", "Th" "W"
+                    "ph" "f", "Ph" "F"
+                    %))))

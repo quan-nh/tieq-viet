@@ -20,7 +20,7 @@ $ npm install tieq-viet
 
 + `js`
 ```js
-const tiegViet = require('tieq-viet');
+var tiegViet = require('tieq-viet');
 
 tiegViet.encode('Tiếng Việt giàu và đẹp. Đùa đấy ahihi đồ ngốc.');
 // Tiếq Việt zàu và dẹp. Dùa dấy ahihi dồ qốk.

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tentamen/tieq-viet/issues"
   },
-  "homepage": "https://github.com/tentamen/tieq-viet"
+  "homepage": "https://github.com/tentamen/tieq-viet",
+  "devDependencies": {
+    "shadow-cljs": "^2.0.105"
+  }
 }
