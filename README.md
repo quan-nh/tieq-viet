@@ -1,4 +1,5 @@
 # tieq-viet
+[![Build Status](https://travis-ci.org/tentamen/tieq-viet.svg?branch=master)](https://travis-ci.org/tentamen/tieq-viet)
 [![Clojars Project](https://img.shields.io/clojars/v/tieq-viet.svg)](https://clojars.org/tieq-viet)
 [![npm version](https://badge.fury.io/js/tieq-viet.svg)](https://www.npmjs.com/package/tieq-viet)
 

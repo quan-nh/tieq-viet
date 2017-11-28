@@ -11,7 +11,7 @@
     "tieqviet"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "shadow-cljs release node"
   },
   "repository": {
     "type": "git",
