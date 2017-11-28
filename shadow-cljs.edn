@@ -9,5 +9,4 @@
  {:node {:id        :library
          :target    :node-library
          :output-to "index.js"
-         :compiler-options {:language-in :ecmascript6}
          :exports   {:encode tieq-viet.core/encode}}}}

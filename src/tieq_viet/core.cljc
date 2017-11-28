@@ -4,7 +4,7 @@
 (defn encode
   "I don't do a whole lot."
   [s]
-  (str/replace s #"(?iu)ch|ngh|nh|ng|kh|th|ph|gh|gi|gì|gí|gỉ|gĩ|gị|tr|c|d|đ|q|r"
+  (str/replace s #"(?i)ch|ngh|nh|ng|kh|th|ph|gh|gi|gì|gí|gỉ|gĩ|gị|GÌ|GÍ|GỈ|GĨ|GỊ|tr|c|d|đ|Đ|q|r"
                #(let [f (first %)
                       r (subs % 1)]
                   (case (str f (str/lower-case r))
