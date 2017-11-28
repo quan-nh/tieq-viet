@@ -13,7 +13,7 @@ $ npm install tieq-viet
 
 + With Leiningen/Boot
 ```clj
-[tieq-viet "1.0.3"]
+[tieq-viet "1.1.0"]
 ```
 
 ## Usage
