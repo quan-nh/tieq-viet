@@ -13,16 +13,16 @@ $ npm install tieq-viet
 
 + With Leiningen/Boot
 ```clj
-[tieq-viet "1.1.0"]
+[tieq-viet "1.1.1"]
 ```
 
 ## Usage
 
 + `js`
 ```js
-var tiegViet = require('tieq-viet');
+var tieqViet = require('tieq-viet');
 
-tiegViet.encode('Tiếng Việt giàu và đẹp. Đùa đấy ahihi đồ ngốc.');
+tieqViet.encode('Tiếng Việt giàu và đẹp. Đùa đấy ahihi đồ ngốc.');
 // Tiếq Việt zàu và dẹp. Dùa dấy ahihi dồ qốk.
 ```
 
