@@ -33,4 +33,7 @@ Diều 7. Qôn qữ zùq coq n'à cườq và kơ sở záo zụk xák; zạy v�
            (encode "Trong đầm gÌ đẹp bằng sen")))
 
     (is (= "Zữ zÌn sự coq sáq kủa tiếq Việt."
-           (encode "Giữ gÌn sự trong sáng của tiếng Việt.")))))
+           (encode "Giữ gÌn sự trong sáng của tiếng Việt.")))
+
+    (is (= "Vụ tàu vỏ wép nằm bờ: zỉ sét lòq tin."
+           (encode "Vụ tàu vỏ thép nằm bờ: gỉ sét lòng tin.")))))
