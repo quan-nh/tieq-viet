@@ -1,5 +1,5 @@
 # tieq-viet
-[![Build Status](https://travis-ci.org/tentamen/tieq-viet.svg?branch=master)](https://travis-ci.org/tentamen/tieq-viet)
+[![Build Status](https://travis-ci.org/quan-nh/tieq-viet.svg?branch=master)](https://travis-ci.org/quan-nh/tieq-viet)
 [![Clojars Project](https://img.shields.io/clojars/v/tieq-viet.svg)](https://clojars.org/tieq-viet)
 [![npm version](https://badge.fury.io/js/tieq-viet.svg)](https://www.npmjs.com/package/tieq-viet)
 
@@ -33,6 +33,13 @@ tieqViet.encode('Tiếng Việt giàu và đẹp. Đùa đấy ahihi đồ ngố
 
 (tieq-viet/encode "Tiếng Việt giàu và đẹp. Đùa đấy ahihi đồ ngốc.")
 ;=> Tiếq Việt zàu và dẹp. Dùa dấy ahihi dồ qốk.
+```
+
+## Release
+### NPM
+```
+$ npm login
+$ npm publish
 ```
 
 ## License
